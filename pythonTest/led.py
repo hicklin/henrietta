@@ -4,7 +4,7 @@ import time
 print "Blinking led"
 print "Type ctrl-C to exit"
  
-led = ablib.Pin('PA24', 'OUT')
+led = ablib.Pin('PA24', 'OUTPUT')
  
 while True:
 	time.sleep(0.2)
