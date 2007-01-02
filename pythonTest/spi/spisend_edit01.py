@@ -33,10 +33,15 @@ class spibus():
 spibus0 = spibus("/dev/spidev32766.0")
 
 #Send two characters
-spibus0.write_buffer[0]=chr(0xE0)
+spibus0.write_buffer[0]=chr(0xAA)
+spibus0.write_buffer[1]=chr(0x55)
+#spibus0.write_buffer[2]=chr(0xE0)
 
-spibus0.send(1)
+spibus0.send(3)
 
 #Shows the 2 byte received in full duplex in hex format
 print hex(ord(spibus0.read_buffer[0]))
 print hex(ord(spibus0.read_buffer[1]))
+
+
+

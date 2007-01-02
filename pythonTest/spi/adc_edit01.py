@@ -30,9 +30,8 @@ ioctl(fd, SPI_IOC_RD_MODE, " ")
 ioctl(fd, SPI_IOC_WR_MODE, struct.pack('I',0))
 
 #Write the A/D channel address and read the value
-#write_buf[0]=chr(adc_channel*8)
-#write_buf[1]=chr(0x00)
-write_buf[1]='@'
+write_buf[0]=chr(adc_channel*8)
+write_buf[1]=chr(0x00)
 
 while True:
 	ioctl(fd, SPI_IOC_MESSAGE(1), addressof(ioctl_arg))

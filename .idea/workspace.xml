@@ -2,8 +2,138 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0552a895-786c-41fd-b523-15c138a20e49" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pythonTest/button.py" afterPath="$PROJECT_DIR$/pythonTest/button.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/init.sh" afterPath="$PROJECT_DIR$/init.sh" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/1wire/read.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/1wire/scan.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/4dsystems/clear.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/4dsystems/print.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/adc/read.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy10/rs422example.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy10/rs485example.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy11/blink.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy11/roll.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy14/lines.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy18/read4.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy18/read8.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy19/out_D2_1234.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy19/out_D2_5678.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy19/out_D2_all.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy19/out_D5_1234.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy19/out_D5_5678.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy19/out_D5_all.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy22/pulse.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy22/readline.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy24/contrast.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy24/cursor.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy24/font.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy24/hello.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy24/hello1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy24/readkey.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy2v1/run.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy2v1/run2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy2v1/run8.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy31/one2one.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy4/relayoff.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy4/relayon.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy5/interrupt.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy5/polling.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy7/acc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy7/baro.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy7/compass.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy7/coordinates.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy7/googleCoordinates.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy7/gps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy7/gyro.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy7/printd7.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy7/readNMEA.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy7/regsAcc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy7/regsGyro.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy7/regs_baro.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy7/regs_compass.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy8/input.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy8/input2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy8/relay.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy8/relay2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/ert/ert" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/ert/evdev.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/ert/install.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/gpio/blink.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/gpio/button.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/gpio/digitalWrite.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/gps/rxnmea.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/hid/hid.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/httpserver/example1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/httpserver/example2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/httpserver/example3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/httpserver/foxweb.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/httpserver/index_example2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/httpserver/index_example3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/httpserver/index_led1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/httpserver/led1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/i2c/matTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/i2c/read.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/i2c/write.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/lab/foxweb.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/lab/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/mysql/addressbook.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/mysql/addrlist.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/mysql/addrlist.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/mysql/insert.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/projects/tlogger.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/pygame/wormy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/sms/lettercounter.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/sms/rxsms.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/sms/teliton.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/sms/txsms.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/softpwm/test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/sqlite/create.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/sqlite/presslog.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/sqlite/select.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/sqlite/select2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/ssc03a/ssc03a.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/terra/modem_off.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/terra/modem_on.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/terra/usb_overrun_polling.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/terra/usb_power.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/tornado/adc/adc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/tornado/adc/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/tornado/adc/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/tornado/adc/js/steelseries-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/tornado/adc/js/tween-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/tornado/basic.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/tornado/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/tornado/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/tornado/jquerymobile/basic.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/tornado/jquerymobile/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/tornado/jquerymobile/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/tornado/led/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/tornado/led/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/tornado/led/led.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/touchosc/daisy11.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/touchosc/tapled.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/wab/dhcpd.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/wab/fakedns.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/wab/hostapd.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/wab/interfaces" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/webapp/css/images/ajax-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/webapp/css/images/ajax-loader.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/webapp/css/images/icons-18-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/webapp/css/images/icons-18-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/webapp/css/images/icons-36-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/webapp/css/images/icons-36-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/webapp/css/jquery.mobile-1.1.0.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/webapp/css/jquery.mobile.structure-1.1.0.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/webapp/css/jquery.mobile.theme-1.1.0.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/webapp/daisy11.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/webapp/daisy11.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/webapp/images/apple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/webapp/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/webapp/js/jquery-1.7.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/webapp/js/jquery.mobile-1.1.0.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/webapp/remote.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pythonTest/spi/adc.py" afterPath="$PROJECT_DIR$/pythonTest/spi/adc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/henrietta.iml" afterPath="$PROJECT_DIR$/.idea/henrietta.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pythonTest/spi/spisend.py" afterPath="$PROJECT_DIR$/pythonTest/spi/spisend.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="henrietta.iws" />
@@ -26,23 +156,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="led.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pythonTest/led.py">
+      <file leaf-file-name="max11040klib.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/beta/max11040klib.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.36813778">
+              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="button.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pythonTest/button.py">
+      <file leaf-file-name="working.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/beta/working.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14563107">
-              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -59,6 +187,9 @@
         <option value="$PROJECT_DIR$/pythonTest/led.py" />
         <option value="$PROJECT_DIR$/pythonTest/button.py" />
         <option value="$PROJECT_DIR$/init.sh" />
+        <option value="$PROJECT_DIR$/beta/MAXspi.py" />
+        <option value="$PROJECT_DIR$/beta/working.py" />
+        <option value="$PROJECT_DIR$/beta/max11040klib.py" />
       </list>
     </option>
   </component>
@@ -70,10 +201,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1366" />
-    <option name="y" value="792" />
-    <option name="width" value="1366" />
-    <option name="height" value="744" />
+    <option name="x" value="-1" />
+    <option name="y" value="20" />
+    <option name="width" value="1922" />
+    <option name="height" value="1061" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -98,7 +229,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -127,31 +257,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pythonTest" />
+              <option name="myItemId" value="beta" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="INTERPRETER_PATH" value="/bin/bash" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -222,6 +345,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -336,6 +465,9 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="0552a895-786c-41fd-b523-15c138a20e49" name="Default" comment="" />
@@ -346,7 +478,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1366" y="792" width="1366" height="744" extended-state="6" />
+    <frame x="-1" y="20" width="1922" height="1061" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -354,21 +486,29 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26136363" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18854167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -378,13 +518,26 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/beta/max11040klib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beta/working.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pythonTest/led.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -392,7 +545,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14563107">
           <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -400,6 +552,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14563107">
           <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonTest/led.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26213592">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beta/working.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beta/max11040klib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36813778">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding />
         </state>
       </provider>
