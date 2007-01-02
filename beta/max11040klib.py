@@ -38,7 +38,7 @@ class MaxSpiDev(spidev.SpiDev):
 
     # Read Data-rate control register -- returns register in hex
     def read_data_rate_control_register(self):
-        read_byte = [0xf0]
+        read_byte = [0xd0]
         read_byte.extend([0x00] * 2)
         response_DRCR = self.xfer(read_byte)
         return hex(response_DRCR[1]), hex(response_DRCR[2])
@@ -59,6 +59,10 @@ class MaxSpiDev(spidev.SpiDev):
         return hex(response_SICR[1]), hex(response_SICR[2]), hex(response_SICR[3]), hex(response_SICR[4])
 
     # Read ADC data -- data is returned as 4 separate values
+    ####################################################################
+    # IMP: This function is designed for 24 bit resolution therefore,  #
+    # XTALEN in the configuration register is set high                 #
+    ####################################################################
     def read_adc_data(self):
         read_byte = [0xf0]
         read_byte.extend([0x00] * 12)
@@ -74,6 +78,6 @@ class MaxSpiDev(spidev.SpiDev):
         channels = []
         for i in range(0, 4):
             j = 3 * i
-            channels.append(int(ADC_bins[j] + ADC_bins[j + 1] + ADC_bins[j + 2], 2))
+            channels.append(int(ADC_bins[j] + ADC_bins[j+1] + ADC_bins[j+2], 2))
 
         return channels

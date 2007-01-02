@@ -2,138 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0552a895-786c-41fd-b523-15c138a20e49" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/1wire/read.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/1wire/scan.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/4dsystems/clear.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/4dsystems/print.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/adc/read.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy10/rs422example.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy10/rs485example.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy11/blink.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy11/roll.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy14/lines.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy18/read4.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy18/read8.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy19/out_D2_1234.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy19/out_D2_5678.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy19/out_D2_all.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy19/out_D5_1234.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy19/out_D5_5678.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy19/out_D5_all.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy22/pulse.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy22/readline.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy24/contrast.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy24/cursor.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy24/font.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy24/hello.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy24/hello1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy24/readkey.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy2v1/run.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy2v1/run2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy2v1/run8.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy31/one2one.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy4/relayoff.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy4/relayon.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy5/interrupt.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy5/polling.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy7/acc.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy7/baro.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy7/compass.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy7/coordinates.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy7/googleCoordinates.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy7/gps.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy7/gyro.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy7/printd7.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy7/readNMEA.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy7/regsAcc.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy7/regsGyro.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy7/regs_baro.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy7/regs_compass.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy8/input.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy8/input2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy8/relay.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/daisy8/relay2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/ert/ert" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/ert/evdev.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/ert/install.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/gpio/blink.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/gpio/button.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/gpio/digitalWrite.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/gps/rxnmea.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/hid/hid.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/httpserver/example1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/httpserver/example2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/httpserver/example3.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/httpserver/foxweb.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/httpserver/index_example2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/httpserver/index_example3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/httpserver/index_led1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/httpserver/led1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/i2c/matTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/i2c/read.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/i2c/write.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/lab/foxweb.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/lab/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/mysql/addressbook.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/mysql/addrlist.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/mysql/addrlist.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/mysql/insert.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/projects/tlogger.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/pygame/wormy.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/sms/lettercounter.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/sms/rxsms.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/sms/teliton.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/sms/txsms.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/softpwm/test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/sqlite/create.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/sqlite/presslog.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/sqlite/select.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/sqlite/select2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/ssc03a/ssc03a.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/terra/modem_off.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/terra/modem_on.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/terra/usb_overrun_polling.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/terra/usb_power.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/tornado/adc/adc.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/tornado/adc/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/tornado/adc/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/tornado/adc/js/steelseries-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/tornado/adc/js/tween-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/tornado/basic.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/tornado/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/tornado/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/tornado/jquerymobile/basic.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/tornado/jquerymobile/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/tornado/jquerymobile/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/tornado/led/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/tornado/led/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/tornado/led/led.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/touchosc/daisy11.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/touchosc/tapled.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/wab/dhcpd.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/wab/fakedns.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/wab/hostapd.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/wab/interfaces" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/webapp/css/images/ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/webapp/css/images/ajax-loader.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/webapp/css/images/icons-18-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/webapp/css/images/icons-18-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/webapp/css/images/icons-36-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/webapp/css/images/icons-36-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/webapp/css/jquery.mobile-1.1.0.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/webapp/css/jquery.mobile.structure-1.1.0.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/webapp/css/jquery.mobile.theme-1.1.0.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/webapp/daisy11.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/webapp/daisy11.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/webapp/images/apple.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/webapp/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/webapp/js/jquery-1.7.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/webapp/js/jquery.mobile-1.1.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pythonTest/webapp/remote.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pythonTest/spi/adc.py" afterPath="$PROJECT_DIR$/pythonTest/spi/adc.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/henrietta.iml" afterPath="$PROJECT_DIR$/.idea/henrietta.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pythonTest/spi/spisend.py" afterPath="$PROJECT_DIR$/pythonTest/spi/spisend.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beta/max11040klib.py" afterPath="$PROJECT_DIR$/beta/max11040klib.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="henrietta.iws" />
@@ -159,8 +28,8 @@
       <file leaf-file-name="max11040klib.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/beta/max11040klib.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36813778">
-              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.40688914">
+              <caret line="39" column="39" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -572,8 +441,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/beta/max11040klib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36813778">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.40688914">
+          <caret line="39" column="39" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="39" />
           <folding />
         </state>
       </provider>
