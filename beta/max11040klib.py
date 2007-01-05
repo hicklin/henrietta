@@ -1,5 +1,6 @@
 import spidev
-
+import ConfigParser
+from time import sleep
 
 class MaxSpiDev(spidev.SpiDev):
     """
@@ -13,12 +14,12 @@ class MaxSpiDev(spidev.SpiDev):
         # Opening the device on chip select cs
         self.open(32766, cs)
         # setting the clock speed for communication
-        self.max_speed_hz = 24000000
+        self.max_speed_hz = 24576000
 
     # Write to Configuration register
     def write_configuration_register(self, cr):
         if len(cr) != 1:
-            return "1 bytes are required"
+            return "1 byte is required"
         CR = [0x60]
         CR.extend(cr)
         _ = self.xfer(CR)
@@ -78,6 +79,33 @@ class MaxSpiDev(spidev.SpiDev):
         channels = []
         for i in range(0, 4):
             j = 3 * i
-            channels.append(int(ADC_bins[j] + ADC_bins[j+1] + ADC_bins[j+2], 2))
+            channels.append(int(ADC_bins[j] + ADC_bins[j+1] + ADC_bins[j+2], 2)-16777216)
 
         return channels
+
+    def set_registers(self, ini_file):
+        config = ConfigParser.ConfigParser()
+        config.read(ini_file)
+        # Write settings from ini file to chip
+        self.write_data_rate_control_register(eval(config.get('registers', 'data_rate_control_register')))
+        self.write_configuration_register(eval(config.get('registers', 'configuration_register')))
+        self.write_sampling_instant_control_register(eval(config.get('registers', 'sampling_control_register')))
+        # Print register settings
+        print "\n********************"
+        print "* Settings written *"
+        print "********************\n"
+        print "Configuration register:            " + str(self.read_configuration_register())
+        print "Data rate control register:        " + str(self.read_data_rate_control_register())
+        print "Sampling instant control register: " + str(self.read_sampling_instant_control_register())
+        print "********************\n"
+        sleep(1)
+
+    def read_registers(self):
+        # Print register settings
+        print "\n********************"
+        print "*    Registers     *"
+        print "********************\n"
+        print "Configuration register:            " + str(self.read_configuration_register())
+        print "Data rate control register:        " + str(self.read_data_rate_control_register())
+        print "Sampling instant control register: " + str(self.read_sampling_instant_control_register())
+        print "********************\n"
