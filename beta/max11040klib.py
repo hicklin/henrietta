@@ -79,7 +79,10 @@ class MaxSpiDev(spidev.SpiDev):
         channels = []
         for i in range(0, 4):
             j = 3 * i
-            channels.append(int(ADC_bins[j] + ADC_bins[j+1] + ADC_bins[j+2], 2)-16777216)
+            channel = int(ADC_bins[j] + ADC_bins[j+1] + ADC_bins[j+2], 2)
+            if channel & 0x800000:
+                channel -= 0x1000000
+            channels.append(channel*3.3/0x800000)
 
         return channels
 
