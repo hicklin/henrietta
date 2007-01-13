@@ -1,6 +1,5 @@
 import spidev
 import configparser
-from time import sleep
 
 class MaxSpiDev(spidev.SpiDev):
     """
@@ -101,7 +100,6 @@ class MaxSpiDev(spidev.SpiDev):
         print("Data rate control register:        " + str(self.read_data_rate_control_register()))
         print("Sampling instant control register: " + str(self.read_sampling_instant_control_register()))
         print("********************\n")
-        sleep(1)
 
     def read_registers(self):
         # Print register settings
