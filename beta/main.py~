@@ -1,6 +1,6 @@
 import datetime
 import time
-import max11040klib
+import ax11040klib
 import sched
 import asyncio
 import sys
@@ -22,7 +22,7 @@ def log(data_file, m_spi, loop, time_a):
     x, y, z, a = m_spi.read_adc_data()
     data_file.write(str(x)+"\t"+str(y)+"\t"+str(x)+"\t"+str(a)+"\n")
     time_b = time_a + 0.01
-    loop.call_at(time_b, log, data_file, m_spi, loop, time_b)
+    loop.call_at(time_b, log, loop, time_b)
 
 
 def main(data_file, m_spi):
@@ -30,8 +30,7 @@ def main(data_file, m_spi):
     loop = asyncio.get_event_loop()
     time_a = loop.time()
     log(data_file, m_spi, loop, time_a)
-    loop.run_forever()
-    # time.sleep(3)
+    time.sleep(3)
 
     # next_datetime = datetime.datetime.now() + datetime.timedelta(days=1)
     # # next_schedule = next_datetime.replace(hour=0, minute=0, second=0)

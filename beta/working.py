@@ -1,5 +1,5 @@
 #!/usr/bin/python
-import max11040klib
+from . import max11040klib
 import datetime
 from ablib import Pin
 from threading import Thread
@@ -17,9 +17,9 @@ def read_adc():
     global s
     global BUFFER_SIZE
     global adc
-    print m.read_adc_data()
+    print(m.read_adc_data())
     adc[s] = m.read_adc_data()
-    print adc[s]
+    print(adc[s])
     if s == BUFFER_SIZE:
         fd.write("\n".join(adc))
         fd.close
@@ -31,8 +31,8 @@ DRDYOUT = Pin('PC0', 'INPUT')
 
 
 def write_file(f, buff, t):
-    print t
-    print "Writing file"
+    print(t)
+    print("Writing file")
     f.write("\n".join(str(x) for x in buff))
     t = 0
     buff = None
@@ -47,11 +47,11 @@ buffer2 = []
 run_time = datetime.timedelta(seconds=60)
 until_time = datetime.datetime.now() + run_time
 
-print "Sampling from " + datetime.datetime.now().strftime("%H:%M:%S.%f") + " to " + until_time.strftime("%H:%M:%S.%f")
+print("Sampling from " + datetime.datetime.now().strftime("%H:%M:%S.%f") + " to " + until_time.strftime("%H:%M:%S.%f"))
 while datetime.datetime.now() < until_time:
     io = DRDYOUT.digitalRead()
     if io == 0:
-        print t1, t2
+        print(t1, t2)
 
         # Storing in buffer 1
         if t1 < BUFFER_SIZE and t2 == BUFFER_SIZE:
@@ -59,12 +59,12 @@ while datetime.datetime.now() < until_time:
             t1 += 1
         elif t1 == BUFFER_SIZE and t2 == BUFFER_SIZE:
             buffer1.append(m.read_adc_data())
-            print "Buffer 1 full... saving in file"
-            print "t1a: "+str(t1)
+            print("Buffer 1 full... saving in file")
+            print("t1a: " + str(t1))
             # Creating independent thread to save buffer in file
             thread_save = Thread(target=write_file, args=(fd, buffer1, t1))
             thread_save.start()
-            print "t1b: "+str(t1)
+            print("t1b: " + str(t1))
 
         # Storing in buffer 2
         elif t2 < BUFFER_SIZE and t1 == BUFFER_SIZE:
@@ -72,28 +72,28 @@ while datetime.datetime.now() < until_time:
             t2 += 1
         elif t2 == BUFFER_SIZE and t1 == 0:
             buffer2.append(m.read_adc_data())
-            print "Buffer 2 full... saving in file"
-            print "t2a: "+str(t2)
+            print("Buffer 2 full... saving in file")
+            print("t2a: " + str(t2))
             # Creating independent thread to save buffer in file
             thread_save = Thread(target=write_file, args=(fd, buffer2, t2))
             thread_save.start()
-            print "t2a: "+str(t2)
+            print("t2a: " + str(t2))
 
         else:
-            print "What are you doing here?"
+            print("What are you doing here?")
             break
 
     elif io == 1:
-        print "You're vary fast!"
+        print("You're vary fast!")
         break
 
     else:
-        print "Hemm xi haga hazina hafna!"
-        print str(DRDYOUT.digitalRead())
+        print("Hemm xi haga hazina hafna!")
+        print(str(DRDYOUT.digitalRead()))
         break
 
-print "Ended now " + datetime.datetime.now().strftime("%H:%M:%S.%f")
-print "Closing file"
+print("Ended now " + datetime.datetime.now().strftime("%H:%M:%S.%f"))
+print("Closing file")
 fd.close
 exit()
 
