@@ -20,7 +20,7 @@ time_a = loop.time()
 # Look into multiprocess module, otherwise used drdyout
 def log(data_file, m_spi, loop, time_a):
     x, y, z, a = m_spi.read_adc_data()
-    data_file.write(str(x)+"\t"+str(y)+"\t"+str(x)+"\t"+str(a)+"\n")
+    data_file.write(str(x)+"\t"+str(y)+"\t"+str(z)+"\t"+str(a)+"\n")
     time_b = time_a + 0.01
     loop.call_at(time_b, log, data_file, m_spi, loop, time_b)
 
