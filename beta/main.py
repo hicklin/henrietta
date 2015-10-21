@@ -4,6 +4,7 @@ import max11040klib
 import sched
 import asyncio
 import sys
+import bz2
 
 # Set runtime error maximum
 sys.setrecursionlimit(1500)
@@ -13,14 +14,15 @@ scheduler = sched.scheduler(time.time, time.sleep)
 m = max11040klib.MaxSpiDev(0)
 m.set_registers("config.ini")
 
-log_book = open(datetime.datetime.now().strftime("%Y%j-%H%M%S.dat"), "w")
+log_book = bz2.BZ2File(datetime.datetime.now().strftime("%Y%j-%H%M%S.dat"), 'wb', 0)
 loop = asyncio.get_event_loop()
 time_a = loop.time()
+
 
 # Look into multiprocess module, otherwise used drdyout
 def log(data_file, m_spi, loop, time_a):
     x, y, z, a = m_spi.read_adc_data()
-    data_file.write(str(x)+"\t"+str(y)+"\t"+str(z)+"\t"+str(a)+"\n")
+    data_file.writelines(str(x)+"\t"+str(y)+"\t"+str(z)+"\t"+str(a)+"\n")
     time_b = time_a + 0.01
     loop.call_at(time_b, log, data_file, m_spi, loop, time_b)
 

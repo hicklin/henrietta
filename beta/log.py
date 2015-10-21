@@ -1,6 +1,8 @@
 import max11040klib
 import asyncio
 import datetime
+import bz2
+
 
 class Log(object):
 
@@ -19,7 +21,7 @@ class Log(object):
         self.msd.set_registers(config_file)
 
     def start_log(self, segment_time, absolute_end_time=1000000):
-        self.file = open(datetime.datetime.now().strftime("%Y%j-%H%M%S.dat"), "w")
+        self.file = bz2.BZ2File(datetime.datetime.now().strftime("%Y%j-%H%M%S.dat"), 'wb', 0)
         self.time_a = self.loop.time()
         self.time_b = self.time_a + self.delay
         self.end_time = self.loop.time() + (segment_time * 3600)
@@ -31,14 +33,14 @@ class Log(object):
 
     def record(self):
         x, y, z, a = self.msd.read_adc_data()
-        self.file.write(str(x)+"\t"+str(y)+"\t"+str(x)+"\t"+str(a)+"\n")
+        self.file.writelines(str(x)+"\t"+str(y)+"\t"+str(z)+"\t"+str(a)+"\n")
         self.time_a = self.time_b
         self.time_b = self.time_a + self.delay
         self.loop.call_at(self.time_b, self.record)
 
         if self.time_b > self.end_time:
             self.file.close()
-            self.file = open(datetime.datetime.now().strftime("%Y%j-%H%M%S.dat"), "w")
+            self.file = bz2.BZ2File(datetime.datetime.now().strftime("%Y%j-%H%M%S.dat"), 'wb', 0)
             self.end_time = self.time_b + self.segment_time
             # print("\nChanged log file name.\n")
             print(self.loop.time())
