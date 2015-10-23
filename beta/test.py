@@ -2,5 +2,5 @@ from log import *
 
 if __name__ == '__main__':
     l = Log(100)
-    l.config("config.ini")
-    l.start_log(1)
+    l.init_adc()
+    l.start(1.0/360, 3.0/360)

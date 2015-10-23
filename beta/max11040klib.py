@@ -1,5 +1,6 @@
 import spidev
-import configparser
+import ConfigParser
+
 
 class MaxSpiDev(spidev.SpiDev):
     """
@@ -85,9 +86,9 @@ class MaxSpiDev(spidev.SpiDev):
 
         return channels
 
-    def set_registers(self, ini_file):
-        config = configparser.ConfigParser()
-        config.read(ini_file)
+    def set_registers(self):
+        config = ConfigParser.ConfigParser()
+        config.read("register_config.ini")
         # Write settings from ini file to chip
         self.write_data_rate_control_register(eval(config.get('registers', 'data_rate_control_register')))
         self.write_configuration_register(eval(config.get('registers', 'configuration_register')))
