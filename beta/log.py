@@ -20,6 +20,7 @@ class Log(object):
         self.segment_time = 1
         self.absolute_end_time = None
 
+    # Sets the ADC's registers according to the "register_config.ini" file
     def init_adc(self):
         self.msd.set_registers()
 
